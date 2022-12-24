@@ -37,7 +37,7 @@ public class LoginServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html>");
         out.println("<head>");
-        out.println("<title>Yahoo!!!!!!!!</title>");
+        out.println("<title>It's not a default HelloWorld app</title>");
         out.println("</head>");
         out.println("<body>");
         out.println("My First Servlet");
