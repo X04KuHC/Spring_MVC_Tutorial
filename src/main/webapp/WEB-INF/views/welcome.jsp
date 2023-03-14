@@ -10,15 +10,8 @@
 <%
 %>
 <body>
-<p>Simple text for example from JSP</p>
-<p>Test of Maven reload</p>
-
-<form action="/login.do" method="post">
-Enter your name:<br>
-<input type="text" name="name"/><br>
-<input type="password" name="password"/><br>
-<input type="submit" value="Login"/>
-</form>
+<p>Welcome screen</p>
+<p>Hello, ${name}!</p>
 
 </body>
 </html>
